@@ -81,7 +81,7 @@ ga_instance = pygad.GA(
     sol_per_pop=50,
     num_genes=10,
     gene_type=int,
-    gene_space=[# 五个点的坐标，每个坐标由两个基因表示，取值范围为0到70的整数
+    gene_space=[# 五个点的坐标，每个坐标由两个基因表示，取值范围为-35到35的整数
         {'low': -35, 'high': 35,'step':1},
         {'low': -35, 'high': 35,'step':1},
         {'low': -35, 'high': 35,'step':1},
